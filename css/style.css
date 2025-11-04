@@ -118,11 +118,9 @@ a {
 /* #region hero */
 .hero-section {
     background-color: #2e2f42;
-}
-
-.hero-container {
     padding: 188px 0;
 }
+
 
 .hero-title {
     margin: 0 auto 48px;
@@ -271,6 +269,7 @@ a {
 .ourportfolio-item-container{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .ourportfolio-item {
     width: calc((100% - 48px) / 3);
@@ -309,11 +308,9 @@ a {
 /* #region footer */
 .pade-footer {
     background-color: #2e2f42;
+        padding: 100px 0;
 }
 
-.footer-container {
-    padding: 100px 0;
-}
 
 .footer-logo .logo-part {
     color: #f4f4fd;
